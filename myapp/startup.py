@@ -24,8 +24,8 @@ class PreStartUp:
     @staticmethod
     def set_qt_application_name():
         from PySide6.QtCore import QCoreApplication
-        QCoreApplication.setApplicationName('my app name')
-        QCoreApplication.setOrganizationName('my org name')
+        QCoreApplication.setApplicationName('Quick Click')
+        QCoreApplication.setOrganizationName('com.sdkpod')
 
     @staticmethod
     def set_qt_application_version():
